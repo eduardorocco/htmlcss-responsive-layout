@@ -139,9 +139,12 @@ body {
 .social-btn {
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
+.banner {
+    padding-top: 60px;
+}
 /* MEDIA QUERY */
 
 @media (max-width: 991.99px) {
@@ -209,7 +212,12 @@ body {
         display: inline-block;
         flex-wrap: nowrap;
     }
+
     .fa-brands {
         padding: 0 15px;
+    }
+
+    .banner {
+        display: none;
     }
 }
