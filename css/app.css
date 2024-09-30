@@ -51,6 +51,10 @@ body {
     background-color: #f6f5f3;
 }
 
+.row {
+    flex-wrap: wrap;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -77,12 +81,32 @@ body {
     font-size: 35px;
     font-weight: bolder;
     color: #4e3969;
+    padding-bottom: 20px;
 }
 
 .mobile-title {
     display: none;
 }
 
+.card {
+    background-color: white;
+    display: flex;
+}
+
+.hero-list {
+    padding: 40px 20px;
+}
+
+.list-title {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.list-item {
+    padding-bottom: 10px;
+    padding-right: 30px;
+    font-size: 16px;
+}
 /* MEDIA QUERY */
 
 @media (max-width: 991.99px) {
