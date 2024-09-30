@@ -91,6 +91,7 @@ body {
 .card {
     background-color: white;
     display: flex;
+    box-shadow: 0 0 15px #b7bdc5;
 }
 
 .hero-list {
@@ -104,7 +105,7 @@ body {
 
 .list-item {
     padding-bottom: 10px;
-    padding-right: 30px;
+    padding-right: 25px;
     font-size: 16px;
 }
 /* MEDIA QUERY */
@@ -119,6 +120,25 @@ body {
         margin: 0 auto;
         padding: 0 60px;
     }
+
+    .card {
+        display: block;
+    }
+
+    .list-title {
+        display: contents;   
+    }
+
+    .hero-list .list-title {
+        display: none;
+    }
+
+    .hero-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
 
 }
 
