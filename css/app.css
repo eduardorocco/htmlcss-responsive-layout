@@ -99,7 +99,7 @@ body {
 }
 
 .list-title {
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     font-size: 20px;
 }
 
@@ -136,7 +136,6 @@ body {
     .hero-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
     }
 
 
@@ -157,4 +156,16 @@ body {
         display: contents;
     }
     
+    .list-title {
+        display: none;   
+    }
+
+    .hero-list .list-title {
+        display: contents;
+    }
+    
+    .hero-list {
+        display: inline-block;
+        flex-wrap: nowrap;
+    }
 }
