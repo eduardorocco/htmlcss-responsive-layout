@@ -32,6 +32,10 @@ main {
 
 /* LAYOUT */
 
+.container {
+    padding: 0 270px;
+}
+
 .header-container {
 
     background-color: #ffffff;
@@ -51,6 +55,8 @@ body {
     text-shadow: 2px 2px 3px #c1ad96;
     padding-left: 30px;
 }
+
+
 
 
 /* MEDIA QUERY */
