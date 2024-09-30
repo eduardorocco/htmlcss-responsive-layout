@@ -1,9 +1,43 @@
+/* RESET RULES*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
 /* FONTS */
 
 header {
     font-family: "Nerko One", cursive;
 }
 
-body {
+main {
     font-family: "Montserrat", sans-serif;
+}
+
+/* LAYOUT */
+
+.header-container {
+
+    background-color: #ffffff;
+}
+
+
+body {
+    background-color: #f6f5f3;
 }
