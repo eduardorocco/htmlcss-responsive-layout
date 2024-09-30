@@ -41,3 +41,13 @@ main {
 body {
     background-color: #f6f5f3;
 }
+
+/* NAVBAR */
+
+.navbar {
+    font-size: 60px;
+    color: #ff9614;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px #c1ad96;
+    padding-left: 30px;
+}
