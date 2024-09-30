@@ -33,6 +33,7 @@ main {
 /* LAYOUT */
 
 .container {
+    margin: 0 auto;
     padding: 0 200px;
 }
 
@@ -41,6 +42,10 @@ main {
     background-color: #ffffff;
 }
 
+
+.col-12 {
+    width: 100%;
+}
 
 body {
     background-color: #f6f5f3;
@@ -70,11 +75,13 @@ body {
 
 .hero-title h1 {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #4e3969;
 }
 
-
+.mobile-title {
+    display: none;
+}
 
 /* MEDIA QUERY */
 
@@ -90,4 +97,13 @@ body {
         max-width: 768px;
         text-align: center;
     }
+
+    .desktop-title {
+        display: none;
+    }
+
+    .mobile-title {
+        display: contents;
+    }
+    
 }
