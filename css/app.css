@@ -250,4 +250,11 @@ h2:after {
     .banner {
         display: none;
     }
+
+    .img-p {
+        width: 70%;
+        float:none;
+        margin-left: 70px;
+
+    }
 }
